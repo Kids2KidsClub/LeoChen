@@ -1,0 +1,95 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+body {
+text-align: center;
+    color: turquoise;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Leo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+
+
+
+    
+
+
+header ul {
+    list-style: none;
+    margin-top: 70px;
+    float:right;
+    margin-right: 80px;
+}
+
+header li {
+    display: inline-block;
+    color: turquoise;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+header a{
+    color: turquoise;
+    padding: 10px;
+    text-decoration: none;
+    background-color: chocolate;
+    border-radius: 20px;
+}
+
+header a:hover {
+    background-image: radial-gradient(red,orange,yellow, green, blue,indigo);
+    color: chocolate;
+    transition: 3s;
+}
+
+
+    #active{
+        background-image: radial-gradient(red,orange,yellow,);
+        border-radius: 20px;
+        font-size: 30px;
+    }
+
+    #logo {
+        width: 150px;
+        margin: 40px;
+    }
+
+    main h1 {
+        color: turquoise;
+        text-align: center;
+        font-size: 3cm;
+    }
+footer {
+    color: #999988;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.9,;
+    background-color: rgba(0,0,0,0.6);
+    height: 30px;
+    width:100%;
+}
+body h4{
+    color: fuchsia;
+background-color: turquoise;
+width: 20%
+}
+
+body h4 :hover{
+color: turquoise;
+background-color: fuchsia;
+width: 20%;
+}
+
+
+    
+      
+    
